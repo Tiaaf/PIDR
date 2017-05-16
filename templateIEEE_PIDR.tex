@@ -51,17 +51,22 @@
 
 
 
-\documentclass[conference]{IEEEtran}
+\documentclass[conference, frenchb]{IEEEtran}
 % Some Computer Society conferences also require the compsoc mode option,
-% but others use the standard conference format.
+% but others use the sntandard conference format.
 %
 % If IEEEtran.cls has not been installed into the LaTeX system files,
 % manually specify the path to it like:
 % \documentclass[conference]{../sty/IEEEtran}
 
 
+\usepackage{babel}
 
+\usepackage[T1]{fontenc}
+\usepackage{fontspec}
 
+% \setlength{\parindent}{4em}
+% \setlength{\parskip}{1em}
 
 % Some very useful LaTeX packages include:
 % (uncomment the ones you want to load)
@@ -92,7 +97,7 @@
 
 % *** CITATION PACKAGES ***
 %
-%\usepackage{cite}
+\usepackage{cite}
 % cite.sty was written by Donald Arseneau
 % V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
 % \cite{} output to follow that of the IEEE. Loading the cite package will
@@ -320,30 +325,24 @@
 % not capitalized unless they are the first or last word of the title.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{Bare Demo of IEEEtran.cls\\ for IEEE Conferences}
+\title{PIDR\\ CNN}
 
 
 % author names and affiliations
 % use a multiple column layout for up to three different
 % affiliations
-\author{\IEEEauthorblockN{Michael Shell}
-\IEEEauthorblockA{School of Electrical and\\Computer Engineering\\
-Georgia Institute of Technology\\
-Atlanta, Georgia 30332--0250\\
-Email: http://www.michaelshell.org/contact.html}
+\author{\IEEEauthorblockN{Antonin CELESTIN}
+\IEEEauthorblockA{ École d'ingénieur en informatique\\
+Télécom Nancy\\
+Email: antonin.celestin@telecomnancy.net}
 \and
-\IEEEauthorblockN{Homer Simpson}
-\IEEEauthorblockA{Twentieth Century Fox\\
-Springfield, USA\\
-Email: homer@thesimpsons.com}
-\and
-\IEEEauthorblockN{James Kirk\\ and Montgomery Scott}
-\IEEEauthorblockA{Starfleet Academy\\
-San Francisco, California 96678--2391\\
-Telephone: (800) 555--1212\\
-Fax: (888) 555--1212}}
+\IEEEauthorblockN{Adam FACI}
+\IEEEauthorblockA{ École d'ingénieur en informatique\\
+Télécom Nancy\\
+Email: adam.faci@telecomnancy.net}
+}
 
-% conference papers do not typically use \thanks and this command
+% Conference papers do not typically use \thanks and this command
 % is locked out in conference mode. If really needed, such as for
 % the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
 % after \documentclass
