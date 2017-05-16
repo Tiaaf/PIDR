@@ -1,0 +1,33 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACciteatitle {attribution des sujets}}{%
+\APACciteatitle {attribution des sujets}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+attributionSujets}
+\APACinsertmetastar {%
+attributionSujets}%
+{\BBOQ}\APACrefatitle {attribution des sujets} {attribution des sujets}.{\BBCQ}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACciteatitle {sujets}}{%
+\APACciteatitle {sujets}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+sujets}
+\APACinsertmetastar {%
+sujets}%
+{\BBOQ}\APACrefatitle {sujets} {sujets}.{\BBCQ}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

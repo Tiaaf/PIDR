@@ -62,11 +62,13 @@
 
 \usepackage{babel}
 
+\usepackage{apacite}
+
 \usepackage[T1]{fontenc}
 \usepackage{fontspec}
 
-% \setlength{\parindent}{4em}
-% \setlength{\parskip}{1em}
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
 
 % Some very useful LaTeX packages include:
 % (uncomment the ones you want to load)
@@ -97,7 +99,7 @@
 
 % *** CITATION PACKAGES ***
 %
-\usepackage{cite}
+%\usepackage{cite}
 % cite.sty was written by Donald Arseneau
 % V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
 % \cite{} output to follow that of the IEEE. Loading the cite package will
@@ -340,6 +342,13 @@ Email: antonin.celestin@telecomnancy.net}
 \IEEEauthorblockA{ École d'ingénieur en informatique\\
 Télécom Nancy\\
 Email: adam.faci@telecomnancy.net}
+\and
+\IEEEauthorblockN{Abdel Belaïd}
+\IEEEauthorblockA{ Centre de recherche en Informatique\\
+Loria\\
+Chef du groupe READ\\
+Maître de conférences\\
+Email : abdel.belaid@loria.fr}
 }
 
 % Conference papers do not typically use \thanks and this command
@@ -379,7 +388,7 @@ Email: adam.faci@telecomnancy.net}
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-The abstract goes here.
+De la compréhension des CNNs à la classification d'une base de mots.
 \end{abstract}
 
 % no keywords
@@ -401,16 +410,13 @@ The abstract goes here.
 
 \section{Introduction}
 % no \IEEEPARstart
-This demo file is intended to serve as a ``starter file''
-for IEEE conference papers produced under \LaTeX\ using
-IEEEtran.cls version 1.8b and later.
+Dans le cadre des Projets Interdisciplinaires ou de Découverte de la Recherche, nous avons travaillé sur des CNNs ie Convolutional Neural Networks ou Réseaux de neuronnes convolutionnels. Le sujet 3 intitulé << Apprentissage profond par couplage de réseaux de neurones à convolutions >> nous a été attribué. Le but a été d'abord de se renseigner sur le fonctionnement et l'utilisation de ces CNNs, puis il a fallu créer et tester nos propres architectures de CNNs, et enfin les comparer afin d'en déduire les forces et les faiblesses.
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
-I wish you the best of success.
 
-\hfill mds
+% \hfill mds                      
  
-\hfill August 26, 2015
+% \hfill August 26, 2015
 
 \subsection{Subsection Heading Here}
 Subsection text here.
@@ -558,14 +564,16 @@ The authors would like to thank...
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
-\begin{thebibliography}{1}
+% \begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+% \bibitem{IEEEhowto:kopka}
+% H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%   0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
 
-\end{thebibliography}
+% \end{thebibliography}
 
+\bibliographystyle{apacite}
+\bibliography{test}
 
 
 
